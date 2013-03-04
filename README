@@ -1,0 +1,2 @@
+Heroku buildpack to deploy Mojolicious applications with Mojo in a subdirectory
+as a git submodule.

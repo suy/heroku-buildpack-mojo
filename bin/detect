@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ -d $1/mojo/lib/Mojolicious ] ; then
+	echo 'Mojolicious submodule'
+	exit 0
+else
+	exit 1
+fi

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+cat << EOF
+---
+config_vars:
+  PATH: mojo/script:/usr/bin:/bin
+default_process_types:
+  web: hypnotoad application.pl
+EOF
