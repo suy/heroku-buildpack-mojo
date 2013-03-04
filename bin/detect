@@ -1,9 +1,6 @@
 #!/bin/sh
 
-echo "First parameter $1"
-ls
-
-if [ -d $1/mojo/lib/Mojolicious ] || [ -r application.pl ] ; then
+if [ -d $1/mojo/lib/Mojolicious ] ; then
 	echo 'Mojolicious submodule'
 	exit 0
 else
